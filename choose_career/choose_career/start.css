@@ -1,0 +1,116 @@
+body{
+    background-image: url("https://margforyou.com/img/blog/What-to-expect-during-career-counseling-process-Discussing-your-ideas.jpg");
+    /* background-image: url("https://blog.edqart.com/wp-content/uploads/2017/09/und.jpg"); */
+
+    /* background: url("https://margforyou.com/img/blog/What-to-expect-during-career-counseling-process-Discussing-your-ideas.jpg") no-repeat center center fixed; */
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-color: #fad0c4; */
+/* background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%); */
+/* background-color: #861657; */
+/* background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%); */
+
+    /* background-color: #89d4cf; */
+    /* background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%); */
+}
+.choose{
+    width: 100%;
+}
+
+.modal{
+    display: flex;
+    width: 55%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.head{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    background-color: #5e5a5c;
+    color: white;
+    font-weight: 900;
+    background-attachment: fixed;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 52.2%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    /* margin: auto; */
+  }
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  .content {
+    padding: 16px;
+  }
+.options select{
+    border-radius: 5px;
+    border: 2px solid rgb(153, 151, 151);
+    width: 25rem;
+    height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.05rem;
+    text-align: center;
+    color: rgb(105, 105, 105);
+}
+.options select option{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 1rem;
+    color: rgb(105, 105, 105);
+}
+
+.set{
+    width: 180px;
+    text-align: left;
+    margin: 1.5rem 1.4rem 1.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(105, 105, 105);
+}
+.btnn{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-end;
+    margin-right: 5rem ;
+    padding:0 1rem 2rem 1rem;
+}
+.btnn button{
+    padding: 0.5rem 1.2rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    background-color: #5e5a5c;
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+    color: white;
+    transition: 0.24s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+}
+.btnn button:hover{
+    box-shadow: rgba(88, 86, 88, 0.4) 5px 5px, rgba(88, 86, 88, 0.3) 10px 10px, rgba(88, 86, 88, 0.2) 15px 15px, rgba(88, 86, 88, 0.1) 20px 20px, rgba(88, 86, 88, 0.05) 25px 25px;
+}

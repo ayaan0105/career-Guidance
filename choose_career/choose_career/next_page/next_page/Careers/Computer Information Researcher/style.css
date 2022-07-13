@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnav {
+    font-size: 2rem;
+}
+
+.career {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100vw;
+    font-family: monospace;
+    position: absolute;
+    top: 25vh;
+}
+
+.specifications h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #3b3b37;
+}
+
+.specifications {
+    /* border: 1px solid green; */
+    margin: 3vh 5vw;
+    font-size: 1.5rem;
+}
+
+.specifications p {
+    padding: 3vh;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* rgb(150, 19, 226); */
+/* Course header section */
+#course-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background: linear-gradient( rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.801) ), url('https://thumbs.dreamstime.com/z/hands-holding-book-title-career-guidance-book-title-career-guidance-101192844.jpg') no-repeat center center/cover;
+    /* opacity:0.7; */
+    /* background-color: black; */
+    /* background-color: black; */
+    color: white;
+}
+#course-header h1{
+    margin: 10px;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+#course-header div{
+    font-size:2rem;
+}
+
+
+#btn-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:2rem;
+}
+#btn-header div{
+    width:900px;
+    margin: 20px;
+}
+#btn-header button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    margin:4px;
+}
+
+
+/* Course section  */
+#courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#courses h1{
+    text-align: center;
+}
+.set-section{
+    display: flex;
+    /* width:1000px; */
+    justify-content: center;
+    margin:40px 0 0 20px;
+    flex-wrap: wrap;
+}
+.card{
+    width:300px;
+    margin-bottom: 50px;
+    
+}
+.card img{
+    width: 250px;
+    height:150px;
+    border: 2px dotted black;
+}
+.container{
+    margin:20px 0 20px 0;
+    width: 240px;
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:black;
+}
+.container h3{
+    margin:0 0 8px 0;
+}
+.course-hr{
+    width: 1200px;
+    margin-bottom: 3em;
+}
+.set-it{
+    margin-top:10px;
+}
+.end{
+    /* margin-left: 90px; */
+    color:green;
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.438);
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-main{
+    margin:20px 0 10px 20px;
+    font-size: large;
+}
+#footer-rights{
+    margin: 5px 0 10px 20px;
+    font-size: large;
+}
+#space{
+    height: 50px;
+}
